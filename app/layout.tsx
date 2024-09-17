@@ -19,10 +19,10 @@ const meta = {
   title: "Airbnb | Vacation rentals, cabins, beach houses, & more",
   description:
     "Find vacation rentals, cabins, beach houses, unique homes and experiences around the world - all made possible by Hosts on Airbnb.",
-  cardImage: "/airbnb-desktop.png",
+  cardImage: "/airbnb-favicon.png",
   robots: "follow, index",
-  favicon: "/favicon.ico",
-  url: "https://github.com/EmmanuelOkon/Air-bnb/issues",
+  favicon: "/airbnb-favicon.png",
+  url: "https://airbnb-vacation.vercel.app/",
   type: "website",
   keywords: ["airbnb", "rentals", "vacation", "travel", "beach", "cabin"],
 };
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   keywords: meta.keywords,
   creator: "Emmanuel Okon",
   robots: meta.robots,
-  metadataBase: new URL("https://github.com/EmmanuelOkon/Air-bnb/issues"),
+  metadataBase: new URL("https://airbnb-vacation.vercel.app/"),
   openGraph: {
     url: meta.url,
     title: meta.title,
