@@ -44,8 +44,8 @@ export const metadata: Metadata = {
   } as OpenGraph,
   icons: [
     {
-      url: "/airbnb-desktop.png",
-      href: "/airbnb-desktop.png",
+      url: "/airbnb-48.png",
+      href: "/airbnb-48.png",
     },
   ],
 };
