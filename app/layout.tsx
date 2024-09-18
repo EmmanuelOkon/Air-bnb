@@ -21,7 +21,7 @@ const meta = {
     "Find vacation rentals, cabins, beach houses, unique homes and experiences around the world - all made possible by Hosts on Airbnb.",
   cardImage: "/airbnb-favicon.png",
   robots: "follow, index",
-  favicon: "/airbnb-favicon.png",
+  favicon: "/airbnb-48.png",
   url: "https://airbnb-vacation.vercel.app/",
   type: "website",
   keywords: ["airbnb", "rentals", "vacation", "travel", "beach", "cabin"],
