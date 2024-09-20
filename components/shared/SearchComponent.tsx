@@ -13,7 +13,7 @@ import {
   Select,
   SelectContent,
   SelectGroup,
-  SelectItem,
+  // SelectItem,
   SelectLabel,
   SelectTrigger,
   SelectValue,
@@ -26,12 +26,12 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 // import { CreationSubmit } from "./SubmitButtons";
 import { Card, CardHeader } from "@/components/ui/card";
-import { Counter } from "./Counter";
+// import { Counter } from "./Counter";
 
 export function SearchModalCompnent() {
   const [step, setStep] = useState(1);
   const [locationValue, setLocationValue] = useState("");
-  const { getAllCountries } = useCountries();
+  // const { getAllCountries } = useCountries();
 
   function SubmitButtonLocal() {
     if (step === 1) {
@@ -80,11 +80,11 @@ export function SearchModalCompnent() {
                 <SelectContent>
                   <SelectGroup>
                     <SelectLabel>Countries</SelectLabel>
-                    {getAllCountries().map((item) => (
+                    {/* {getAllCountries().map((item) => (
                       <SelectItem key={item.value} value={item.value}>
                         {item.flag} {item.label} / {item.region}
                       </SelectItem>
-                    ))}
+                    ))} */}
                   </SelectGroup>
                 </SelectContent>
               </Select>
@@ -110,7 +110,7 @@ export function SearchModalCompnent() {
                       </p>
                     </div>
 
-                    <Counter name="guest" />
+                    {/* <Counter name="guest" /> */}
                   </div>
                   <div className="flex items-center justify-between">
                     <div className="flex flex-col">
@@ -120,7 +120,7 @@ export function SearchModalCompnent() {
                       </p>
                     </div>
 
-                    <Counter name="room" />
+                    {/* <Counter name="room" /> */}
                   </div>
                   <div className="flex items-center justify-between">
                     <div className="flex flex-col">
@@ -130,7 +130,7 @@ export function SearchModalCompnent() {
                       </p>
                     </div>
 
-                    <Counter name="bathroom" />
+                    {/* <Counter name="bathroom" /> */}
                   </div>
                 </CardHeader>
               </Card>
