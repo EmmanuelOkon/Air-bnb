@@ -28,6 +28,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardHeader } from "@/components/ui/card";
 // import { Counter } from "./Counter";
 
+
 export function SearchModalCompnent() {
   const [step, setStep] = useState(1);
   const [locationValue, setLocationValue] = useState("");
