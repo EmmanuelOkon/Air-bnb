@@ -21,7 +21,7 @@ const meta = {
     "Find vacation rentals, cabins, beach houses, unique homes and experiences around the world - all made possible by Hosts on Airbnb.",
   cardImage: "/airbnb-favicon.png",
   robots: "follow, index",
-  favicon: "/airbnb-48.png",
+  favicon: "/assets/airbnb-48.png",
   url: "https://airbnb-vacation.vercel.app/",
   type: "website",
   keywords: ["airbnb", "rentals", "vacation", "travel", "beach", "cabin"],
@@ -44,8 +44,8 @@ export const metadata: Metadata = {
   } as OpenGraph,
   icons: [
     {
-      url: "/airbnb-48.png",
-      href: "/airbnb-48.png",
+      url: "/assets/airbnb-48.png",
+      href: "/assets/airbnb-48.png",
     },
   ],
 };
