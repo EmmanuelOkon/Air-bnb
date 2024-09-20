@@ -41,7 +41,7 @@ export function SearchModalCompnent() {
         </Button>
       );
     } else if (step === 2) {
-      return <CreationSubmit />;
+      return <div>CreationSubmit </div>;
     }
   }
   return (
@@ -88,7 +88,8 @@ export function SearchModalCompnent() {
                   </SelectGroup>
                 </SelectContent>
               </Select>
-              <HomeMap locationValue={locationValue} />
+              <div>Home map</div>
+              {/* <HomeMap locationValue={locationValue} /> */}
             </>
           ) : (
             <>
