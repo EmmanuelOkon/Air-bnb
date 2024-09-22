@@ -1,16 +1,21 @@
-import { Button } from "@/components/ui/button";
 // import Link from "next/link";
 // import Image from "next/image";
+import * as React from "react";
+import dynamic from "next/dynamic";
+// import MapFilter from "@/components/shared/MapFilter";
+import { Button } from "@/components/ui/button";
+
+const MapFilter = dynamic(() => import("@/components/shared/MapFilter"), {
+  suspense: true,
+});
 
 export default function Home() {
-  const hello = process.env.KINDE_ISSUER_URL;
-
-  console.log(hello);
   return (
-    <div className="text-3xl font-mono">
-      <h1>Welcome to Airbnb Home page</h1>
+    <div className="container mx-auto font-sans">
+      <React.Suspense fallback={<div>Loading...</div>}>
+        <MapFilter />
+      </React.Suspense>
       <Button>Click me</Button>
-      
     </div>
   );
 }
