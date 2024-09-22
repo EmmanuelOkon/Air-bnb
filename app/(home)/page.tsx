@@ -1,16 +1,14 @@
-import { Button } from "@/components/ui/button";
 // import Link from "next/link";
 // import Image from "next/image";
+import MapFilter from "@/components/shared/MapFilter";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
-  const hello = process.env.KINDE_ISSUER_URL;
 
-  console.log(hello);
   return (
-    <div className="text-3xl font-mono">
-      <h1>Welcome to Airbnb Home page</h1>
+    <div className="container mx-auto font-sans">
+      <MapFilter />
       <Button>Click me</Button>
-      
     </div>
   );
 }
