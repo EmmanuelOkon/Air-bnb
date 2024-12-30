@@ -14,6 +14,14 @@
   }
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  outline: 0;
+  transition: all 0.2s linear;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
@@ -80,6 +88,10 @@ body {
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
+  }
+
+  .l-auth-layout-card {
+    background-color: red !important;
   }
 }
 

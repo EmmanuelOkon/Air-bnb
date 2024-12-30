@@ -15,6 +15,11 @@ const nextConfig = {
         protocol: "https",
         port: "",
       },
+      {
+        hostname: "avatar.vercel.sh",
+        protocol: "https",
+        port: "",
+      },
     ],
   },
 };

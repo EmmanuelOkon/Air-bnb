@@ -24,17 +24,17 @@ const MapFilter = () => {
   );
 
   return (
-    <div className="flex gap-x-10 mt-5 w-full overflow-x-scroll no-scrollbar">
+    <div className="flex justify-between gap-x-4 lg:gap-x-10 mt-5 w-full overflow-x-scroll no-scrollbar mx-auto">
       {categoryItems.map((item) => {
         const active = search === item.name;
         return (
           <Link
             key={item.id}
             href={pathname + "?" + createQueryString("filter", item.name)}
-            className={`flex flex-col gap-y-3 items-center ${
+            className={`flex flex-col gap-y-3 items-center border-y-2 py-1 ${
               active
-                ? "border-b-2 border-black pb-2 flex-shrink-0"
-                : "opacity-70 flex-shrink-0"
+                ? "border-b-2 border-b-black border-t-transparent flex-shrink-0"
+                : "opacity-70 flex-shrink-0 border-transparent"
             }`}
           >
             <div className="relative w-6 h-6">

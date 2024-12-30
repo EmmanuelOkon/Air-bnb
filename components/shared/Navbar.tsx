@@ -8,7 +8,7 @@ import { UserNav } from "./UserNav";
 export default function Navbar() {
   return (
     <nav className="w-full border-b">
-      <div className="flex items-center justify-between container mx-auto py-5">
+      <div className="flex items-center justify-between container mx-auto py-5 px-4 ">
         <Link href="/">
           {/* <Icons.LogoMobile className="w-12" /> */}
           <Image
